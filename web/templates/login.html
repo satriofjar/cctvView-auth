@@ -65,10 +65,11 @@ label{
               <div class="card-body p-4 p-sm-5">
 
                 <h2 class="card-title text-center mb-2">SIGN IN</h2>
-
+                {{ if .message }}
                 <ul>
                   <li class="text-danger">{{ .message }}</li>
                 </ul>
+                {{ end }}
                 <!-- <p class="text-danger"></p> -->
 
 
