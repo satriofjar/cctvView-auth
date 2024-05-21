@@ -28,18 +28,18 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
             <div class="d-flex align-items-center justify-content-between">
-            <a href="" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
 
                 <span class="d-none d-lg-block">CCTV Monitor</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
             </div><!-- End Logo -->
 
-            <div class="search-bar">
+            <!-- <div class="search-bar">
             <form class="search-form d-flex align-items-center" method="POST" action="#">
                 <input type="text" name="query" placeholder="Search" title="Enter search keyword">
                 <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-            </form>
+            </form> -->
             </div><!-- End Search Bar -->
 </header><!-- End Header -->
 
@@ -78,19 +78,19 @@
 <main id="main" class="main">
 
   <div class="pagetitle">
-    <h1>Lantai 1</h1>
+    <h1>{{ .floor }}</h1>
     <nav>
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item">Lantai 1</li>
-        <li class="breadcrumb-item active">Camera 1</li>
+        <li class="breadcrumb-item">{{ .floor }}</li>
+        <li class="breadcrumb-item active">{{ .suuid }}</li>
       </ol>
     </nav>
   </div><!-- End Page Title -->
 
   <section class="section dashboard">
     <div class="row">
-	golang.org/x/crypto v0.23.0
+
       <!-- Left side columns -->
       <div class="col-lg-12">
         <div class="row">
@@ -98,10 +98,10 @@
           <div class="col-12">
             <div class="card overflow-auto">
               <div class="container">
-                  <div class="row">
+                  <div class="row justify-content-center pt-5">
 
-                      <div class="col-lg-8 mb-5 mt-4">
-                         <div class="text-center">
+                      <div class="col-lg-8 mb-5">
+                         <div class="">
                             <div class="col">
                                 <input type="hidden" name="suuid" id="suuid" value="{{ .suuid }}">
                                 <input type="hidden" name="port" id="port" value="{{ .port }}">
@@ -110,10 +110,11 @@
                                 <div id="remoteVideos">
                                     <video style="width:600px" id="videoElem" autoplay muted controls></video>
                                 </div>
-                                <button onclick="startSession()"> Start Session </button>
+                                <!-- <button onclick="startSession()"> Start Session </button> 
                                 <div id="div"></div>
                             </div>
-                           <h3 class="text-start ms-5 ps-1 my-4 fs-4 fw-semibold">{{ .suuid }}</h3>
+                           <h3 class="text-start ms-5 ps-1 my-4 fs-4 fw-semibold">{{ .suuid }}</h3> -->
+                           
                          </div>
                        </div>
 

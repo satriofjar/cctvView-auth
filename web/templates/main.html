@@ -28,19 +28,13 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
             <div class="d-flex align-items-center justify-content-between">
-            <a href="" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
 
                 <span class="d-none d-lg-block">CCTV Monitor</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
             </div><!-- End Logo -->
 
-            <div class="search-bar">
-            <form class="search-form d-flex align-items-center" method="POST" action="#">
-                <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-            </form>
-            </div><!-- End Search Bar -->
 </header><!-- End Header -->
 
 
@@ -78,11 +72,11 @@
 <main id="main" class="main">
 
   <div class="pagetitle">
-    <h1>Lantai 1</h1>
+    <h1>{{ .floor }}</h1>
     <nav>
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item active">Lantai 1</li>
+        <li class="breadcrumb-item active">{{ .floor }}</li>
       </ol>
     </nav>
   </div><!-- End Page Title -->
@@ -97,7 +91,7 @@
           <div class="col-12">
             <div class="card overflow-auto">
               <div class="container">
-                  <div class="row w-auto mx-auto">
+                  <div class="row w-auto justify-content-center">
 
                     {{ range .suuidMap }}
 
