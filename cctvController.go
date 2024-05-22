@@ -46,10 +46,10 @@ func HTTPAPIServerLogin(c *gin.Context) {
 func HTTPAPIServerFloor(c *gin.Context) {
 	streams := Config.ListStreamsByFloor(c.Param("uuid"))
 	sort.Strings(streams)
-	c.HTML(http.StatusOK, "main.tmpl", gin.H{
+	c.HTML(http.StatusOK, "main.html", gin.H{
 		"port":     Config.Server.HTTPPort,
 		"suuidMap": streams,
-		"version":  time.Now().String(),
+		// "version":  time.Now().String(),
 	})
 }
 
