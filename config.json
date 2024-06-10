@@ -6,282 +6,282 @@
   "streams": {
     "GDN-LT1-001": {
       "on_demand": true,
-      "url": "rtsp://syno:554bbb3c8f82fec3677650771dc887bc@10.176.255.254:554/Sms=32.unicast",
+      "url": "rtsp://syno:554bbb3c8f82fec3677650771dc887bc@10.177.91.50:554/Sms=32.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-002": {
       "on_demand": true,
-      "url": "rtsp://syno:df4d34cd1e0f2f4b186d57ee21a9e76c@10.176.255.254:554/Sms=33.unicast",
+      "url": "rtsp://syno:df4d34cd1e0f2f4b186d57ee21a9e76c@10.177.91.50:554/Sms=33.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-003": {
       "on_demand": true,
-      "url": "rtsp://syno:47835072c8dbc4e2a9ed5d5f18efab23@10.176.255.254:554/Sms=20.unicast",
+      "url": "rtsp://syno:47835072c8dbc4e2a9ed5d5f18efab23@10.177.91.50:554/Sms=20.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-004": {
       "on_demand": true,
-      "url": "rtsp://syno:3889ed73969d3ac0d4ce919477a504c4@10.176.255.254:554/Sms=49.unicast",
+      "url": "rtsp://syno:3889ed73969d3ac0d4ce919477a504c4@10.177.91.50:554/Sms=49.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-005": {
       "on_demand": true,
-      "url": "rtsp://syno:c4c01a18f0319a23fa21d9d26148f53a@10.176.255.254:554/Sms=38.unicast",
+      "url": "rtsp://syno:c4c01a18f0319a23fa21d9d26148f53a@10.177.91.50:554/Sms=38.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-006": {
       "on_demand": true,
-      "url": "rtsp://syno:f95a3a271e3e38f1c0baef6288d186c9@10.176.255.254:554/Sms=9.unicast",
+      "url": "rtsp://syno:f95a3a271e3e38f1c0baef6288d186c9@10.177.91.50:554/Sms=9.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-007": {
       "on_demand": true,
-      "url": "rtsp://syno:03fe7dfef5d2fc9a4711be53e980f3bc@10.176.255.254:554/Sms=31.unicast",
+      "url": "rtsp://syno:03fe7dfef5d2fc9a4711be53e980f3bc@10.177.91.50:554/Sms=31.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-008": {
       "on_demand": true,
-      "url": "rtsp://syno:15280fe1a6c0402d1c1b385900bb234a@10.176.255.254:554/Sms=50.unicast",
+      "url": "rtsp://syno:15280fe1a6c0402d1c1b385900bb234a@10.177.91.50:554/Sms=50.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-009": {
       "on_demand": true,
-      "url": "rtsp://syno:06fce57fa647ddb6791d2ade8c41c66d@10.176.255.254:554/Sms=52.unicast",
+      "url": "rtsp://syno:06fce57fa647ddb6791d2ade8c41c66d@10.177.91.50:554/Sms=52.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-010": {
       "on_demand": true,
-      "url": "rtsp://syno:99d640f68052836451c100f662128f03@10.176.255.254:554/Sms=6.unicast",
+      "url": "rtsp://syno:99d640f68052836451c100f662128f03@10.177.91.50:554/Sms=6.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-011": {
       "on_demand": true,
-      "url": "rtsp://syno:f3387ab8df80196dd5eb6e56c822bc56@10.176.255.254:554/Sms=36.unicast",
+      "url": "rtsp://syno:f3387ab8df80196dd5eb6e56c822bc56@10.177.91.50:554/Sms=36.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-012": {
       "on_demand": true,
-      "url": "rtsp://syno:22584a362cb2a08655a9462281c6200f@10.176.255.254:554/Sms=57.unicast",
+      "url": "rtsp://syno:22584a362cb2a08655a9462281c6200f@10.177.91.50:554/Sms=57.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-013": {
       "on_demand": true,
-      "url": "rtsp://syno:94baff6ff948e7e5b068bb0f9b6ca022@10.176.255.254:554/Sms=55.unicast",
+      "url": "rtsp://syno:94baff6ff948e7e5b068bb0f9b6ca022@10.177.91.50:554/Sms=55.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-014": {
       "on_demand": true,
-      "url": "rtsp://syno:3cee027c5e9b6c72624a65beee4c90d8@10.176.255.254:554/Sms=2.unicast",
+      "url": "rtsp://syno:3cee027c5e9b6c72624a65beee4c90d8@10.177.91.50:554/Sms=2.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-016": {
       "on_demand": true,
-      "url": "rtsp://syno:d10756f1ae16baccfce65c8c073b511c@10.176.255.254:554/Sms=27.unicast",
+      "url": "rtsp://syno:d10756f1ae16baccfce65c8c073b511c@10.177.91.50:554/Sms=27.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-017": {
       "on_demand": true,
-      "url": "rtsp://syno:605c999cf59c0a1a3eba07adb22ebd0c@10.176.255.254:554/Sms=5.unicast",
+      "url": "rtsp://syno:605c999cf59c0a1a3eba07adb22ebd0c@10.177.91.50:554/Sms=5.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-018": {
       "on_demand": true,
-      "url": "rtsp://syno:cf03a6bffd2d9bc9a3a215d5aaebfe52@10.176.255.254:554/Sms=10.unicast",
+      "url": "rtsp://syno:cf03a6bffd2d9bc9a3a215d5aaebfe52@10.177.91.50:554/Sms=10.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-019": {
       "on_demand": true,
-      "url": "rtsp://syno:621044da6c9c1329d7d0a62528e812c8@10.176.255.254:554/Sms=3.unicast",
+      "url": "rtsp://syno:621044da6c9c1329d7d0a62528e812c8@10.177.91.50:554/Sms=3.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-020": {
       "on_demand": true,
-      "url": "rtsp://syno:6e15a6e02274c8d7f8ab146fe4f927c1@10.176.255.254:554/Sms=28.unicast",
+      "url": "rtsp://syno:6e15a6e02274c8d7f8ab146fe4f927c1@10.177.91.50:554/Sms=28.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-021": {
       "on_demand": true,
-      "url": "rtsp://syno:461c0a9fcc8d46d8a00e3175ed1388c0@10.176.255.254:554/Sms=8.unicast",
+      "url": "rtsp://syno:461c0a9fcc8d46d8a00e3175ed1388c0@10.177.91.50:554/Sms=8.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-022": {
       "on_demand": true,
-      "url": "rtsp://syno:adf82f0389fb840fea29bbaf0e1aefa7@10.176.255.254:554/Sms=30.unicast",
+      "url": "rtsp://syno:adf82f0389fb840fea29bbaf0e1aefa7@10.177.91.50:554/Sms=30.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-024": {
       "on_demand": true,
-      "url": "rtsp://syno:6fd58184c75a77dee64321e2adbc73c0@10.176.255.254:554/Sms=15.unicast",
+      "url": "rtsp://syno:6fd58184c75a77dee64321e2adbc73c0@10.177.91.50:554/Sms=15.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-025": {
       "on_demand": true,
-      "url": "rtsp://syno:c20db0d49471d4515b738a74e88ff412@10.176.255.254:554/Sms=48.unicast",
+      "url": "rtsp://syno:c20db0d49471d4515b738a74e88ff412@10.177.91.50:554/Sms=48.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT1-026": {
       "on_demand": true,
-      "url": "rtsp://syno:44149a43f3843cb7df5cb42644bde50a@10.176.255.254:554/Sms=63.unicast",
+      "url": "rtsp://syno:44149a43f3843cb7df5cb42644bde50a@10.177.91.50:554/Sms=63.unicast",
       "floor": "lantai_1"
     },
     "GDN-LT2-004": {
       "on_demand": true,
-      "url": "rtsp://syno:a92a7718e0a23fe6b07266f94d10b9ab@10.176.255.254:554/Sms=26.unicast",
+      "url": "rtsp://syno:a92a7718e0a23fe6b07266f94d10b9ab@10.177.91.50:554/Sms=26.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-005": {
       "on_demand": true,
-      "url": "rtsp://syno:a119adb79c41209455ac1e4255912add@10.176.255.254:554/Sms=29.unicast",
+      "url": "rtsp://syno:a119adb79c41209455ac1e4255912add@10.177.91.50:554/Sms=29.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-006": {
       "on_demand": true,
-      "url": "rtsp://syno:18d36d0c1fc2ab61b8dc0b29cee4d4b3@10.176.255.254:554/Sms=34.unicast",
+      "url": "rtsp://syno:18d36d0c1fc2ab61b8dc0b29cee4d4b3@10.177.91.50:554/Sms=34.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-008": {
       "on_demand": true,
-      "url": "rtsp://syno:fbaa2a85f6e7187d008a44157e6279f9@10.176.255.254:554/Sms=18.unicast",
+      "url": "rtsp://syno:fbaa2a85f6e7187d008a44157e6279f9@10.177.91.50:554/Sms=18.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-009": {
       "on_demand": true,
-      "url": "rtsp://syno:2c8af47fb989e8584f998adebc2dc521@10.176.255.254:554/Sms=59.unicast",
+      "url": "rtsp://syno:2c8af47fb989e8584f998adebc2dc521@10.177.91.50:554/Sms=59.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0010": {
       "on_demand": true,
-      "url": "rtsp://syno:d0d60a7f825239c657cc9a8cfa2c1732@10.176.255.254:554/Sms=60.unicast",
+      "url": "rtsp://syno:d0d60a7f825239c657cc9a8cfa2c1732@10.177.91.50:554/Sms=60.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0012": {
       "on_demand": true,
-      "url": "rtsp://syno:587e5caf2bdd0cb5d14b88ee7f235898@10.176.255.254:554/Sms=4.unicast",
+      "url": "rtsp://syno:587e5caf2bdd0cb5d14b88ee7f235898@10.177.91.50:554/Sms=4.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0013": {
       "on_demand": true,
-      "url": "rtsp://syno:25aef67ff78fb6716c6f8fd726de2dae@10.176.255.254:554/Sms=51.unicast",
+      "url": "rtsp://syno:25aef67ff78fb6716c6f8fd726de2dae@10.177.91.50:554/Sms=51.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0014": {
       "on_demand": true,
-      "url": "rtsp://syno:7108cf7d794be95744064af011260262@10.176.255.254:554/Sms=16.unicast",
+      "url": "rtsp://syno:7108cf7d794be95744064af011260262@10.177.91.50:554/Sms=16.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0015": {
       "on_demand": true,
-      "url": "rtsp://syno:990c93a637f64bf6998d6419e6bf274b@10.176.255.254:554/Sms=1.unicast",
+      "url": "rtsp://syno:990c93a637f64bf6998d6419e6bf274b@10.177.91.50:554/Sms=1.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0016": {
       "on_demand": true,
-      "url": "rtsp://syno:7f30df4d51b023c2424c471c2127cbbc@10.176.255.254:554/Sms=71.unicast",
+      "url": "rtsp://syno:7f30df4d51b023c2424c471c2127cbbc@10.177.91.50:554/Sms=71.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0017": {
       "on_demand": true,
-      "url": "rtsp://syno:0f6c319e1609703dbf910d55e0b490a2@10.176.255.254:554/Sms=73.unicast",
+      "url": "rtsp://syno:0f6c319e1609703dbf910d55e0b490a2@10.177.91.50:554/Sms=73.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0018": {
       "on_demand": true,
-      "url": "rtsp://syno:056e395b137598b8dd1f67bd7780c2f0@10.176.255.254:554/Sms=72.unicast",
+      "url": "rtsp://syno:056e395b137598b8dd1f67bd7780c2f0@10.177.91.50:554/Sms=72.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0019": {
       "on_demand": true,
-      "url": "rtsp://syno:ac36fd670dc6fb4846ddd12f418c15c0@10.176.255.254:554/Sms=69.unicast",
+      "url": "rtsp://syno:ac36fd670dc6fb4846ddd12f418c15c0@10.177.91.50:554/Sms=69.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT2-0032": {
       "on_demand": true,
-      "url": "rtsp://syno:a4a7a076703d4e8a4c1e891061cccbd8@10.176.255.254:554/Sms=54.unicast",
+      "url": "rtsp://syno:a4a7a076703d4e8a4c1e891061cccbd8@10.177.91.50:554/Sms=54.unicast",
       "floor": "lantai_2"
     },
     "GDN-LT3-0016": {
       "on_demand": true,
-      "url": "rtsp://syno:0a17c678f7d4ed07dd2aa451559d513c@10.176.255.254:554/Sms=24.unicast",
+      "url": "rtsp://syno:0a17c678f7d4ed07dd2aa451559d513c@10.177.91.50:554/Sms=24.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0018": {
       "on_demand": true,
-      "url": "rtsp://syno:fa7adf5fdedec9035bb100ed895d7f60@10.176.255.254:554/Sms=53.unicast",
+      "url": "rtsp://syno:fa7adf5fdedec9035bb100ed895d7f60@10.177.91.50:554/Sms=53.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0021": {
       "on_demand": true,
-      "url": "rtsp://syno:e85189176362c829dcf0e5d457ab6b52@10.176.255.254:554/Sms=41.unicast",
+      "url": "rtsp://syno:e85189176362c829dcf0e5d457ab6b52@10.177.91.50:554/Sms=41.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0026": {
       "on_demand": true,
-      "url": "rtsp://syno:a5a65ebd04d7f04480510ae5385fe5a0@10.176.255.254:554/Sms=22.unicast",
+      "url": "rtsp://syno:a5a65ebd04d7f04480510ae5385fe5a0@10.177.91.50:554/Sms=22.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0027": {
       "on_demand": true,
-      "url": "rtsp://syno:303b56c8ec4f011ad89b9cefc33be349@10.176.255.254:554/Sms=43.unicast",
+      "url": "rtsp://syno:303b56c8ec4f011ad89b9cefc33be349@10.177.91.50:554/Sms=43.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0028": {
       "on_demand": true,
-      "url": "rtsp://syno:ad247d13731a48ccc17ba1f29e13881c@10.176.255.254:554/Sms=45.unicast",
+      "url": "rtsp://syno:ad247d13731a48ccc17ba1f29e13881c@10.177.91.50:554/Sms=45.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0030": {
       "on_demand": true,
-      "url": "rtsp://syno:0b4e70c3e29c89b050f9f78b2ff3e219@10.176.255.254:554/Sms=62.unicast",
+      "url": "rtsp://syno:0b4e70c3e29c89b050f9f78b2ff3e219@10.177.91.50:554/Sms=62.unicast",
       "floor": "lantai_3"
     },
     "GDN-LT3-0031": {
       "on_demand": true,
-      "url": "rtsp://syno:661b6bb746c9d3b01327c17f1221c08c@10.176.255.254:554/Sms=21.unicast",
+      "url": "rtsp://syno:661b6bb746c9d3b01327c17f1221c08c@10.177.91.50:554/Sms=21.unicast",
       "floor": "lantai_3"
     },
     "GDN-OUT-002": {
       "on_demand": true,
-      "url": "rtsp://syno:831e7294fbf837b5c8f75aa29e0a923f@10.176.255.254:554/Sms=64.unicast",
+      "url": "rtsp://syno:831e7294fbf837b5c8f75aa29e0a923f@10.177.91.50:554/Sms=64.unicast",
       "floor": "outdoor"
     },
     "GDN-OUT-003": {
       "on_demand": true,
-      "url": "rtsp://syno:83c2201ce842d20c37e067109df5e4b3@10.176.255.254:554/Sms=39.unicast",
+      "url": "rtsp://syno:83c2201ce842d20c37e067109df5e4b3@10.177.91.50:554/Sms=39.unicast",
       "floor": "outdoor"
     },
     "GDN-OUT-004": {
       "on_demand": true,
-      "url": "rtsp://syno:ebe6efc70e18ceec0bcafc0e745bd545@10.176.255.254:554/Sms=44.unicast",
+      "url": "rtsp://syno:ebe6efc70e18ceec0bcafc0e745bd545@10.177.91.50:554/Sms=44.unicast",
       "floor": "outdoor"
     },
     "GDN-OUT-006": {
       "on_demand": true,
-      "url": "rtsp://syno:0f9ececf047a457cf409e14a812d50fd@10.176.255.254:554/Sms=65.unicast",
+      "url": "rtsp://syno:0f9ececf047a457cf409e14a812d50fd@10.177.91.50:554/Sms=65.unicast",
       "floor": "outdoor"
     },
     "GDN-OUT-008": {
       "on_demand": true,
-      "url": "rtsp://syno:33784b7cc17e7b728ca1302dba75c0f6@10.176.255.254:554/Sms=70.unicast",
+      "url": "rtsp://syno:33784b7cc17e7b728ca1302dba75c0f6@10.177.91.50:554/Sms=70.unicast",
       "floor": "outdoor"
     },
     "GDN-SRV-001": {
       "on_demand": true,
-      "url": "rtsp://syno:09e8563a69574de92d8c8cc3d75d39b9@10.176.255.254:554/Sms=17.unicast",
+      "url": "rtsp://syno:09e8563a69574de92d8c8cc3d75d39b9@10.177.91.50:554/Sms=17.unicast",
       "floor": "outdoor"
     },
     "GDN-SRV-002": {
       "on_demand": true,
-      "url": "rtsp://syno:fb8e3a3115f284faa18a38c1ef96d7a2@10.176.255.254:554/Sms=19.unicast",
+      "url": "rtsp://syno:fb8e3a3115f284faa18a38c1ef96d7a2@10.177.91.50:554/Sms=19.unicast",
       "floor": "outdoor"
     },
     "GDN-SRV-004": {
       "on_demand": true,
-      "url": "rtsp://syno:26dbe4714f9bbd5aaeb78653885b1e1e@10.176.255.254:554/Sms=7.unicast",
+      "url": "rtsp://syno:26dbe4714f9bbd5aaeb78653885b1e1e@10.177.91.50:554/Sms=7.unicast",
       "floor": "outdoor"
     },
     "GDN-SRV-005": {
       "on_demand": true,
-      "url": "rtsp://syno:6af9d8978426f913d1bb85c8d942cadd@10.176.255.254:554/Sms=11.unicast",
+      "url": "rtsp://syno:6af9d8978426f913d1bb85c8d942cadd@10.177.91.50:554/Sms=11.unicast",
       "floor": "outdoor"
     }
   }

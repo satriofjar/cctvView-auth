@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os/exec"
 	"sort"
+	"strings"
 	"time"
 
 	"github.com/deepch/vdk/av"
@@ -29,7 +30,7 @@ func HTTPAPIServerIndex(c *gin.Context) {
 		// c.Redirect(http.StatusMovedPermanently, "stream/player/"+all[0])
 		c.Redirect(http.StatusMovedPermanently, "/stream/floor/lantai_1")
 	} else {
-		c.HTML(http.StatusOK, "index.tmpl", gin.H{
+		c.HTML(http.StatusOK, "index.html", gin.H{
 			"port":    Config.Server.HTTPPort,
 			"version": time.Now().String(),
 		})
@@ -46,9 +47,11 @@ func HTTPAPIServerLogin(c *gin.Context) {
 func HTTPAPIServerFloor(c *gin.Context) {
 	streams := Config.ListStreamsByFloor(c.Param("uuid"))
 	sort.Strings(streams)
+	floor := strings.ReplaceAll(c.Param("uuid"), "_", " ")
 	c.HTML(http.StatusOK, "main.html", gin.H{
-		"port":     Config.Server.HTTPPort,
+		// "port":     Config.Server.HTTPPort,
 		"suuidMap": streams,
+		"floor":    floor,
 		// "version":  time.Now().String(),
 	})
 }
@@ -57,15 +60,17 @@ func HTTPAPIServerFloor(c *gin.Context) {
 func HTTPAPIServerStreamPlayer(c *gin.Context) {
 	_, all := Config.list()
 	sort.Strings(all)
-	some := Config.getFloor(c.Param("uuid"))
-	streams := Config.ListStreamsByFloor(some)
-	sort.Strings(streams)
-	c.HTML(http.StatusOK, "player.tmpl", gin.H{
+	f := Config.getFloor(c.Param("uuid"))
+	floor := strings.ReplaceAll(f, "_", " ")
+	// streams := Config.ListStreamsByFloor(some)
+	// sort.Strings(streams)
+	c.HTML(http.StatusOK, "player.html", gin.H{
 		"port":  Config.Server.HTTPPort,
 		"suuid": c.Param("uuid"),
+		"floor": floor,
 		// "suuidMap": all,
-		"suuidMap": streams,
-		"version":  time.Now().String(),
+		// "suuidMap": streams,
+		"version": time.Now().String(),
 	})
 }
 
@@ -171,7 +176,7 @@ func HTTPAPIServerStreamWebRTC(c *gin.Context) {
 		defer Config.clDe(c.PostForm("suuid"), cid)
 		defer muxerWebRTC.Close()
 		var videoStart bool
-		noVideo := time.NewTimer(10 * time.Second)
+		noVideo := time.NewTimer(20 * time.Second)
 		for {
 			select {
 			case <-noVideo.C:
@@ -179,7 +184,7 @@ func HTTPAPIServerStreamWebRTC(c *gin.Context) {
 				return
 			case pck := <-ch:
 				if pck.IsKeyFrame || AudioOnly {
-					noVideo.Reset(10 * time.Second)
+					noVideo.Reset(20 * time.Second)
 					videoStart = true
 				}
 				if !videoStart && !AudioOnly {

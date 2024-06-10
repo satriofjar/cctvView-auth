@@ -1,6 +1,7 @@
 let stream = new MediaStream();
 
 let suuid = $('#suuid').val();
+console.log("suuid : " + suuid);
 
 let config = {
   iceServers: [{
